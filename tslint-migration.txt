@@ -1,0 +1,32 @@
+2 ESLint rules behave differently from their TSLint counterparts:
+  * @typescript-eslint/no-unused-vars:
+    - Please read the following article as the rule behaviour may change on the short term: https://github.com/typescript-eslint/typescript-eslint/issues/1856
+  * no-invalid-this:
+    - Functions in methods will no longer be ignored.
+
+24 rules are not known by tslint-to-eslint-config to have ESLint equivalents:
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "mocha-avoid-only".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-accessor-field-mismatch".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-all-duplicated-branches".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-collection-size-mischeck".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-commented-code".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-dead-store".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-duplicated-branches".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-element-overwrite".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-empty-destructuring".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-gratuitous-expressions".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-identical-conditions".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-identical-expressions".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-ignored-return".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-inferred-empty-object-type".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-multiline-string-literals".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-self-assignment".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-unconditional-jump".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-unthrown-error".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-unused-array".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-useless-cast".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-useless-increment".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-variable-usage-before-declaration".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "promise-must-complete".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "typedef".
+
