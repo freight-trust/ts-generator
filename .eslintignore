@@ -1,0 +1,7 @@
+.eslintrc.js
+__snapshots__
+example/
+dist/
+migration.dist/
+migrations*
+__tests__
